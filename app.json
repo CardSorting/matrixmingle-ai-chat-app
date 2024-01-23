@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Matrix Mingle",
+    "slug": "matrixmingle",
+    "version": "1.0.0",
+    "orientation": "portrait", // Define the default orientation of your app
+    "icon": "./assets/icon.png", // Path to your app's icon image
+    "splash": {
+      "image": "./assets/splash.png", // Path to your app's splash screen image
+      "resizeMode": "contain", // or "cover"
+      "backgroundColor": "#ffffff" // A background color for your splash screen
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0 // Define how your app should handle updates
+    },
+    "assetBundlePatterns": [
+      "**/*" // Include all assets in your project
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ea52d1a4-1f20-4a38-ac58-118eeca55207"
+      }
+    },
+    "owner": "galxyz",
+    "ios": {
+      "supportsTablet": true, // If your app supports iPad
+      "bundleIdentifier": "com.infinitehorizons.matrixmingle" // Your iOS bundle identifier
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png", // Path to your Android adaptive icon foreground image
+        "backgroundColor": "#FFFFFF" // Background color for your adaptive icon
+      },
+      "package": "com.infinitehorizons.matrixmingle", // Your Android package name
+      "versionCode": 1 // Android version code
+    }
+  },
+  "name": "Matrix Mingle"
+}
